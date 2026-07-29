@@ -3,6 +3,8 @@
 = 异步
 #link("https://yoric.github.io/post/quite-a-few-words-about-async/")[关于异步的总结]
 
+#link("https://joeduffyblog.com/2015/11/19/asynchronous-everything/")[让一切都是异步]
+
 #link("https://devblogs.microsoft.com/dotnet/how-async-await-really-works/")[C\#的async原理]
 
 = 结构化并发

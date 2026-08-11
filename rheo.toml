@@ -1,17 +1,16 @@
-version = "0.4.0"
+version = "0.5.0"
 content_dir = "content"
 
 [html.spine]
-vertebrae = ["**/*.typ"]
 
 [html]
 feed_base_url = "https://fanyingfx.github.io/blog"
 
 [pdf.spine]
 title = "rheo_project"
-vertebrae = ["index.typ"]
 merge = true
+exclude = ["about.typ", "basics.typ", "compiler.typ", "concurrency.typ", "error_handling.typ", "friends.typ", "functional_programming.typ", "how_to_learn_programming.typ", "memory.typ", "polymorphism.typ", "reading.typ", "talks.typ", "testing.typ", "theme_test.typ", "thoughts/pl1.typ", "thoughts/tt.typ"]
 
 [epub.spine]
 title = "rheo_project"
-vertebrae = ["index.typ", "about.typ"]
+exclude = ["basics.typ", "compiler.typ", "concurrency.typ", "error_handling.typ", "friends.typ", "functional_programming.typ", "how_to_learn_programming.typ", "memory.typ", "polymorphism.typ", "reading.typ", "talks.typ", "testing.typ", "theme_test.typ", "thoughts/pl1.typ", "thoughts/tt.typ"]

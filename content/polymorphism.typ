@@ -1,3 +1,5 @@
+#set raw(theme: "../minimal-kiwi.tmTheme")
+
 = 常见的三种分类
 
 == 参数化多态
